@@ -11,8 +11,11 @@ A simple edit and load operation using magic-ed and Quicklisp.
 + Start SBCL and load with (ql:quickload "magic-ed")
 + Run ed-load.lisp in this repository to create the *ed-load* function and save the image to disc or re-use
 + Next time you start SBCL startup using the *my-sbcl-image* core. Under Debian or Raspbian Linux alais lisp to use rlwrap with SBCL
-  + alias lisp="/opt/local/bin/rlwrap -b $BREAK_CHARS --remember -c /YOUR_HOME_PATH/bin/sbcl --core /YOUR_HOME_PATH/my-sbcl-image"
-  + Replace *YOUR_HOME_PATH* with the value of "$HOME" assuming *sbcl* is installed in $HOME/bin
+
+```shell
+alias lisp="/opt/local/bin/rlwrap -b $BREAK_CHARS --remember -c /YOUR_HOME_PATH/bin/sbcl --core /YOUR_HOME_PATH/my-sbcl-image"
+```
+Replace *YOUR_HOME_PATH* with the value of *$HOME* assuming *sbcl* is installed in *$HOME/bin*
 
 ## What this does
 
