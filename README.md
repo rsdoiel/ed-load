@@ -13,8 +13,9 @@ A simple edit and load operation using magic-ed and Quicklisp.
 + Next time you start SBCL startup using the *my-sbcl-image* core. Under Debian or Raspbian Linux alais lisp to use rlwrap with SBCL
 
 ```shell
-alias lisp="/opt/local/bin/rlwrap -b $BREAK_CHARS --remember -c /YOUR_HOME_PATH/bin/sbcl --core /YOUR_HOME_PATH/my-sbcl-image"
+alias lisp="/usr/bin/rlwrap -b $BREAK_CHARS --remember -c /YOUR_HOME_PATH/bin/sbcl --core /YOUR_HOME_PATH/my-sbcl-image"
 ```
+
 Replace *YOUR_HOME_PATH* with the value of *$HOME* assuming *sbcl* is installed in *$HOME/bin*
 
 ## What this does
