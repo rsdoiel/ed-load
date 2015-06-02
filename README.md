@@ -9,7 +9,7 @@ A simple edit and load operation using magic-ed and Quicklisp.
   + cd ~/quicklisp/local-projects
   + git clone git@github.com:senal/magic-ed.git
 + Start SBCL and load with (ql:quickload "magic-ed")
-+ Run ed-load.lisp in this repository to create the *ed-load* function and save the image to disc or re-use
++ Run "ed-load.lisp" in this repository to create the *ed-load* function and save the lisp image as "my-sbcl-image"
 + Next time you start SBCL startup using the *my-sbcl-image* core. Under Debian or Raspbian Linux alais lisp to use rlwrap with SBCL
 
 ```shell
